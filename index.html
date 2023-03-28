@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+
+    <h1 id="main-title">Quizz</h1>
+
+    <div id="score" class="hide">
+        <p id="display"><span>90</span>%</p>
+        <p>Você acertou <span id="correto">0</span> de <span id="questoes">10</span> Perguntas</p>
+
+        <button id="restart">Refazer novamente!</button>
+    </div>
+    <div id="container">
+        <p id="questao"><span id="questao-nume">1</span> - <span id="questao-text"> html é uma linguagem de programação?</span></p>
+
+        <div id="box">
+            <button><span class="btn">a</span><span class="questao-resposta">nao</span></button>
+            
+            <button><span class="btn">b</span><span class="questao-resposta">sim</span></button>
+            
+            <button><span class="btn">c</span><span class="questao-resposta">talvez</span></button>
+            
+            <button><span class="btn">d</span><span class="questao-resposta">talvez</span></button>
+        </div>
+    </div>
+
+    <button class="template hide"><span class="btn">a</span> <span class="questao-resposta">m</span>
+    
+</body>
+</html>
