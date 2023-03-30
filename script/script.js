@@ -276,7 +276,7 @@ function proxPerg(){
 
         criarQuest(perg)
 
-    },400)
+    },1400)
 }
 
 //Mostrar a tela final
