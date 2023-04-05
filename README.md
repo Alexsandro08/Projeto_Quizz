@@ -29,9 +29,8 @@
 		</ul> <br>
   
 
-<h3>Link do projeto para rodar no terminal<h3>
-<p>gh repo clone Alexsandro08/Projeto_Quizz</p><br>
-
+>Link do  projeto para rodar no terminal
+gh repo clone Alexsandro08/Projeto_Quizz
 
 <h3>CONCLUSÃO FINAL</h3>
     <p>Este projeto foi feito para mostrar o uso de DOM em projetos web e criar um quizz interativo para usuários</p>
