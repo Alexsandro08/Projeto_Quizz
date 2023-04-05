@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: #396880b0;
+    color: #fff;
+}
+/*Tela final*/
+
+.hide{
+    display: none !important;
+}
+
+#main-title{
+    padding: 30px;
+    text-align: center;
+    font-size: 4rem;
+    background-color: #364e5ab0;
+    color: #ffff00;
+    text-shadow: 2px 1px 0px #000000b0; 
+    box-shadow: 0px 0px 3px 3px #00000083;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius: 50px;
+}
+
+#main-title img{
+    width: 40px;
+    margin-bottom:20px;
+}
+
+#score{
+    border: 3px solid #fff;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #ffffff57, #39688081);
+    color: #000;
+    text-align: center;
+    width: 300px;
+    margin: 30px auto;
+    padding: 25px;
+}
+#score p{
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+#score #display{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#correto{
+    font-weight: bold;
+    color: #0000ff9d;
+
+}
+#questoes{
+    font-weight: bold;
+    color: #0000ff9d;
+}
+
+#restart{
+    background-color: #ffff00a2;
+    padding: 10px;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+#restart:hover{
+    background-color: #ffff00;
+
+}
+
+/*Tela do quizz*/
+
+#container{
+    width: 500px;
+    margin:50px auto;
+    border: 3px solid #fff;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#questao{
+    background-color: #ffff00b9;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #000;
+}
+
+#questao-nume{
+    font-weight: bold;
+}
+
+#box button{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 15px 0;
+    width: 310px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#box button:hover{
+    background-color: #a9a9a9;
+}
+
+#box .btn{
+    background-color: #ffff00b9;
+    font-size: 30px;
+    border: 1px solid #4d4d18;
+    border-radius:50%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex: 1 1 0;
+    max-width: 38px;
+}
+
+.questao-resposta{
+    flex:  1 1 0;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+#container .correct{
+    background-color: #ff0000cb;
+   
+
+}
+
+#container .errado{
+    background-color: #07c707da;
+
+}
+
+
+/*Dispositiveis móveis*/
+@media (max-width:767px){
+    #container{
+        width: 100%;
+    }
+    #box button{
+        width: 70%;
+        
+    }
+    #main-title{
+        font-size: 3em;
+        width: 99%;
+        margin-left: 2px;
+        
+    }
+    
+    #box .btn{
+        font-size: 1.5em;
+        line-height: 40px;
+        
+    }
+    #questao{
+        width: 100%;
+        height: 130px;
+    }
+   
+}
